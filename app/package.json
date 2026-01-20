@@ -1,0 +1,24 @@
+{
+  "name": "blogy-template",
+  "version": "1.0.0",
+  "description": "A blog template based on Blogy design using HTML and SCSS with organized structure",
+  "main": "resources/template/index.html",
+  "scripts": {
+    "build:scss": "node build-scss.js",
+    "watch:scss": "sass --watch resources/style/:public/css/",
+    "start": "npm run build:scss",
+    "dev": "npm run build:scss"
+  },
+  "keywords": [
+    "html",
+    "scss",
+    "template",
+    "blog"
+  ],
+  "author": "Igor",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.70.0",
+    "serve": "^14.2.1"
+  }
+}

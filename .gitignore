@@ -1,0 +1,4 @@
+#backend
+.idea
+docker/logs
+docker/.data

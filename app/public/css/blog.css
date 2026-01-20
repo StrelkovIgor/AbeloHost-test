@@ -1,0 +1,68 @@
+.post-wrap-card {
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.post-wrap-card .post-image-container {
+  float: left;
+  width: 30%;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.post-wrap-card .post-image-container img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.post-wrap-card .post-image-container .image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-wrap-card .post-image-container .image-overlay .date {
+  font-weight: 500;
+}
+.post-wrap-card .post-image-container .image-overlay .views {
+  opacity: 0.9;
+}
+.post-wrap-card .post-content .post-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333;
+  line-height: 1.3;
+}
+.post-wrap-card .post-content .post-excerpt {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.post-wrap-card .post-content .continue-reading {
+  display: inline-block;
+  font-size: 14px;
+  color: #334e5e;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid #334e5e;
+  margin-top: 10px;
+}
+.post-wrap-card .post-content .continue-reading:hover {
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .post-wrap-card .post-image-container {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+}
